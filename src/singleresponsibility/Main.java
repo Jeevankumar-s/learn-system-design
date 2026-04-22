@@ -18,8 +18,5 @@ public class Main {
         userRepository.saveUserToDB(user);
         generateReport.generateReport(user);
         emailService.sendWelcomeEmail(user);
-
-
-
     }
 }
